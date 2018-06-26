@@ -23,7 +23,7 @@ module.exports = {
   // uses load-json-file module to read the data
   async AddDataToDB(req, res) {
     try {
-      const data = await loadJsonFile('test.json');
+      const data = await loadJsonFile('data.json');
       const oldData = await Crud.find({}).sort({ id: 1 });
 
       if (data) {
