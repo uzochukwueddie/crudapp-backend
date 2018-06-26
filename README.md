@@ -12,7 +12,7 @@ A simple CRUD RESTful interface built with node.js. It uses express framework an
 - Load Json File Module
 
 # Getting Started
-To get started, you need to install node.js latest version from https://nodejs.org/en/. Also install mongodb on your local nachine via https://www.mongodb.com/download-center?jmp=nav#community. Once you have that setup, you can clone the project from github using git clone https://github.com/uzochukwueddie/crudapp-backend.git.
+To get started, you need to install node.js latest version from https://nodejs.org/en/. Also install mongodb on your local nachine via https://www.mongodb.com/download-center?jmp=nav#community. Once you have that setup, you can clone the project from github using ```git clone https://github.com/uzochukwueddie/crudapp-backend.git```. You can also download as a zip file.
 
 # How to Run
 Once the project is downloaded, open with your favorite editor and also open project in a terminal. Run the command ```npm install``` to install all dependencies. The server can be started by using the command ```node server.js```. You can also install nodemon to start the server. Run ```npm install -g nodemon``` to install nodemon package globally and then you can start the server by running ```nodemon server```. Server runs on port 3000.
